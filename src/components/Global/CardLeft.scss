@@ -1,0 +1,21 @@
+@import "../../styles/index.scss";
+
+.CardLeft {
+  background-color: $primary-background;
+  .imgSelfie {
+    width: 100%;
+  }
+  .socialMediaLinksWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .imgSocialMedias {
+    width: 24px;
+    height: 24px;
+    margin: 0 1rem;
+  }
+  @media (min-width: 1024px) {
+    width: 30%;
+  }
+}

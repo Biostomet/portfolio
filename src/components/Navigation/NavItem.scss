@@ -1,0 +1,33 @@
+@import "../../styles/index.scss";
+
+.NavItem {
+  ul {
+    display: none;
+    list-style: none;
+  }
+  li {
+    background-color: $primary-background;
+    padding: 1.25rem 1.5rem;
+  }
+  li:hover {
+    background-color: $different-blue;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+  .hamburger {
+    cursor: pointer;
+    color: $secondary-color;
+    font-size: 14px;
+  }
+  @media (min-width: 1024px) {
+    .itemWrapper {
+      display: flex;
+      margin: 0;
+    }
+    .hamburger {
+      display: none;
+    }
+  }
+}

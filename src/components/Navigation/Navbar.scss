@@ -1,0 +1,14 @@
+@import "../../styles/index.scss";
+
+.Navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  @media (min-width: 1024px) {
+    justify-content: unset;
+    margin-bottom: 0;
+  }
+}

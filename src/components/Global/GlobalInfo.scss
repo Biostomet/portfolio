@@ -1,0 +1,26 @@
+@import "../../styles/index.scss";
+
+.GlobalInfo {
+  color: $white;
+  padding: 1.5rem;
+  h2 {
+    margin: 0;
+  }
+  .imgSvg {
+    width: 16px;
+    height: 16px;
+    color: white;
+  }
+  .personalInfosWrapper {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  .persoTextInfoWrapper {
+    margin-left: 1.5rem;
+  }
+  .globalInfoText {
+    color: $secondary-color;
+    display: inline;
+  }
+}
