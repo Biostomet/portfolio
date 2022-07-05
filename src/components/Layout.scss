@@ -2,4 +2,18 @@
 
 .pageWrapper {
   padding: 0 1.5rem;
+  height: 100%;
+  .RightCardWrapper {
+    padding: 2.5rem 2rem;
+    background-color: $secondary-background;
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+  }
+  @media (min-width: 1024px) {
+    main {
+      display: flex;
+      height: 90%;
+    }
+  }
 }

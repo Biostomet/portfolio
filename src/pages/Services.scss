@@ -1,0 +1,12 @@
+@import "../styles/index.scss";
+
+.ServicesPage {
+  height: 100vh;
+  .mainTitleWrapper {
+    flex: unset;
+  }
+  .ServiceCard {
+    display: flex;
+    margin-top: 5rem;
+  }
+}

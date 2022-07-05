@@ -1,0 +1,10 @@
+@import "../styles/index.scss";
+
+.portfolioPage {
+  height: 100vh;
+  .mainTitleWrapper {
+    flex: unset;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+}

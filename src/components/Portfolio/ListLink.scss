@@ -1,0 +1,15 @@
+@import "../../styles/index.scss";
+
+.ListLinkPort {
+  ul {
+    display: flex;
+    padding: 0;
+    li {
+      list-style: none;
+      margin-right: 4rem;
+      color: $primary-color;
+      font-weight: 400;
+      font-size: 1.3rem;
+    }
+  }
+}

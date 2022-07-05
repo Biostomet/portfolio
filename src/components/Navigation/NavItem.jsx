@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 export default function NavItem() {
   const lists = [
     { text: "About", slug: "/" },
-    { text: "Skills", slug: "/nitro" },
-    { text: "Services", slug: "/" },
-    { text: "Portfolio", slug: "/" },
-    { text: "Testimonials", slug: "/" },
-    { text: "Contact", slug: "/" },
+    { text: "Skills", slug: "/skills" },
+    { text: "Services", slug: "/services" },
+    { text: "Portfolio", slug: "/portfolio" },
+    { text: "Testimonials", slug: "/testimonials" },
+    { text: "Contact", slug: "/contact" },
   ];
   return (
     <div className="NavItem">

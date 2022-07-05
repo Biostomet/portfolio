@@ -1,0 +1,13 @@
+@import "../styles/index.scss";
+
+.ContactPage {
+  .mainTitleWrapper {
+    flex: unset;
+    margin-bottom: 2.5rem;
+  }
+  .secondaryContent {
+    flex: unset;
+    margin-bottom: 2rem;
+    width: 50%;
+  }
+}

@@ -1,0 +1,42 @@
+@import "../styles/index.scss";
+
+.AboutPage {
+  .RightCardWrapper {
+    padding: 2.5rem 2rem;
+    background-color: $secondary-background;
+    display: flex;
+    flex-direction: column;
+  }
+  .containerProgressbars {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    flex: 2;
+
+    .progressBar {
+      height: 150px;
+      width: 150px;
+      margin: 2rem 0;
+      p {
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+  @media (min-width: 1024px) {
+    height: 100vh;
+
+    .containerProgressbars {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .progressBar {
+        height: 130px;
+        width: 130px;
+        margin: 0;
+      }
+    }
+  }
+}

@@ -2,13 +2,20 @@
 
 .CardLeft {
   background-color: $primary-background;
+  flex: 2;
+  .imgWrapper {
+    height: 50%;
+  }
+  .GlobalInfo {
+    flex: 3;
+  }
   .imgSelfie {
     width: 100%;
   }
   .socialMediaLinksWrapper {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
   .imgSocialMedias {
     width: 24px;
@@ -16,6 +23,8 @@
     margin: 0 1rem;
   }
   @media (min-width: 1024px) {
-    width: 30%;
+    .imgSelfie {
+      height: 100%;
+    }
   }
 }
