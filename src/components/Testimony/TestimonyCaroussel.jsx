@@ -1,13 +1,10 @@
 import React from "react";
 import "./TestimonyCaroussel.scss";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
-export default function TestimonyCaroussel({
-  titre,
-  text,
-  img,
-  fonction,
-  name,
-}) {
+export default function TestimonyCaroussel() {
   const lists = [
     {
       text: "qsduhqs uidgsquydgqsyd qsgudyq sfd qgsdfdgshf",
@@ -31,21 +28,25 @@ export default function TestimonyCaroussel({
       name: "Diane Smith",
     },
   ];
-  return (
-    <div className="TestimonyCaroussel">
-      {lists.map((list) => (
-        <div className="cardCustomersWrapper">
-          <h3> {list.titre} </h3>
-          <p> {list.text} </p>
-          <div className="imgWrapper">
-            <img src={list.img} alt="#" />
-          </div>
-          <p>
-            {list.name}
-            <span> {list.fonction} </span>
-          </p>
-        </div>
-      ))}
-    </div>
-  );
+  return {
+    /* <div className="TestimonyCaroussel"> */
+  };
+  /*   <Swiper spaceBetween={50} slidesPerView={3}  onSwiper={(swiper) => console.log(swiper)}>
+        {lists.map((list) => (
+          <SwiperSlide>
+            <div className="cardCustomersWrapper">
+              <h3> {list.titre} </h3>
+              <p> {list.text} </p>
+              <div className="imgWrapper">
+                <img src={list.img} alt="#" />
+              </div>
+              <p>
+                {list.name}
+                <span> {list.fonction} </span>
+              </p>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper> */
+  /*   </div> */
 }

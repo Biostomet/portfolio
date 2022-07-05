@@ -1,11 +1,17 @@
 @import "../../styles/index.scss";
 
-.TestimonyCaroussel {
+/* .TestimonyCaroussel {
   display: flex;
+  flex-direction: column;
+
   .cardCustomersWrapper {
     flex: 1;
     margin: 1rem;
     background-color: $white;
     padding: 1rem;
   }
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
 }
+ */
