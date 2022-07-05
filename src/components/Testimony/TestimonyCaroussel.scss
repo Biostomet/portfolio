@@ -1,0 +1,11 @@
+@import "../../styles/index.scss";
+
+.TestimonyCaroussel {
+  display: flex;
+  .cardCustomersWrapper {
+    flex: 1;
+    margin: 1rem;
+    background-color: $white;
+    padding: 1rem;
+  }
+}

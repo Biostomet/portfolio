@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../components/Contact/ContactForm";
 import CardRightMainTitle from "../components/Global/CardRightMainTitle";
 import CardRightSecondaryTitle from "../components/Global/CardRightSecondaryTitle";
 import Layout from "../components/Layout";
@@ -16,6 +17,7 @@ export default function Contact() {
           necessitatibus odit vero. Tempore deleniti aspernatur vitae ad,
           laudantium sint blanditiis!"
         />
+        <ContactForm />
       </Layout>
     </div>
   );

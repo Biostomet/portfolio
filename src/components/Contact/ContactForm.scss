@@ -1,0 +1,55 @@
+@import "../../styles/index.scss";
+
+.ContactForm {
+  width: 100%;
+  form {
+    width: 100%;
+    div {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .inputFlex {
+    display: flex;
+    justify-content: space-between;
+    .firstInputFlex {
+      margin-right: 1rem;
+    }
+    input {
+      flex: 1;
+    }
+  }
+  button {
+    background-color: $different-blue;
+    width: 40%;
+    padding: 0.5rem;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+  }
+  .maxInputWidth {
+    width: 100%;
+  }
+  @media (min-width: 1024px) {
+    form {
+      width: 60%;
+    }
+    .inputFlex {
+      display: flex;
+      justify-content: space-between;
+      input {
+        flex: 1;
+      }
+    }
+
+    .inputMessage {
+      textarea {
+        width: 100%;
+      }
+    }
+    input,
+    textarea {
+      border: 1px solid;
+      border-radius: 5px;
+    }
+  }
+}
