@@ -7,6 +7,20 @@
   }
   .ServiceCard {
     display: flex;
+    flex-direction: column;
     margin-top: 5rem;
+    margin-bottom: 3rem;
+    .serviceCardWrapper {
+      padding: 0;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .ServiceCard {
+      display: flex;
+      flex-direction: row;
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+    }
   }
 }

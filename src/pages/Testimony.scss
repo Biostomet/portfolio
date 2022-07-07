@@ -2,4 +2,11 @@
 
 .TestimonyPage {
   height: 100vh;
+  .RightCardWrapper {
+    overflow: hidden;
+    .mainTitleWrapper {
+      flex: unset;
+      margin-bottom: 5rem;
+    }
+  }
 }

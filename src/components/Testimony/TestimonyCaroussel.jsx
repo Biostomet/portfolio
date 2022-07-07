@@ -1,8 +1,7 @@
 import React from "react";
-import "./TestimonyCaroussel.scss";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "./TestimonyCaroussel.scss";
 
 export default function TestimonyCaroussel() {
   const lists = [
@@ -28,10 +27,14 @@ export default function TestimonyCaroussel() {
       name: "Diane Smith",
     },
   ];
-  return {
-    /* <div className="TestimonyCaroussel"> */
-  };
-  /*   <Swiper spaceBetween={50} slidesPerView={3}  onSwiper={(swiper) => console.log(swiper)}>
+  return (
+    <div className="TestimonyCaroussel">
+      <Swiper
+        spaceBetween={50}
+        slidesPerView={3}
+        onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
+      >
         {lists.map((list) => (
           <SwiperSlide>
             <div className="cardCustomersWrapper">
@@ -47,6 +50,7 @@ export default function TestimonyCaroussel() {
             </div>
           </SwiperSlide>
         ))}
-      </Swiper> */
-  /*   </div> */
+      </Swiper>
+    </div>
+  );
 }

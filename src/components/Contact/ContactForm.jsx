@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Global/Button";
 import "./ContactForm.scss";
 
 export default function ContactForm() {
@@ -20,9 +21,7 @@ export default function ContactForm() {
             placeholder="Message"
           ></textarea>
         </div>
-        <div>
-          <button className="contactMessage">Send Message</button>
-        </div>
+        <Button textButton="Send message" />
       </form>
     </div>
   );

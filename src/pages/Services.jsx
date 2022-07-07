@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../components/Global/Button";
 import CardRightMainTitle from "../components/Global/CardRightMainTitle";
 import Layout from "../components/Layout";
 import ServiceCard from "../components/ServicesPage/ServiceCard";
@@ -7,17 +8,17 @@ import "./Services.scss";
 export default function Services() {
   const serviceCardList = [
     {
-      text: "La création de site lqsifgskjlsfdqiusdf gdqsky ufgqsdhf gqdsfhgqsdk qdfhs",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quod rem, error, dicta molestiae sint qui tempora aliquid earum expedita officiis esse.",
       src: "horloge.webp",
       titre: "qsdqsd",
     },
     {
-      text: "Un site internet en bonne santé isugqsuyofgd sqoufy sdquo ifygdsqyf gqdsoufg",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quod rem, error, dicta molestiae sint qui tempora aliquid earum expedita officiis esse repellendus eligendi sequi ",
       src: "maintenance.webp",
       titre: "qsdqsd",
     },
     {
-      text: "Votre site internet apparait quysdfg fdsyfsdjhf dsfk sdf",
+      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quod rem, error, dicta molestiae sint qui tempora aliquid earum expedita officiis esse repellendus eligendi.",
       src: "reference.webp",
       titre: "fdsfdsf",
     },
@@ -38,6 +39,7 @@ export default function Services() {
             />
           ))}
         </div>
+        <Button textButton="Contactez-moi" />
       </Layout>
     </div>
   );

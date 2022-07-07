@@ -1,7 +1,7 @@
 import React from "react";
 import "./ServiceCard.scss";
 
-export default function ServiceCard(src, titre, text) {
+export default function ServiceCard({ src, titre, text }) {
   return (
     <div className="serviceCardWrapper">
       <div className="logoServiceWrapper">
